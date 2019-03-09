@@ -1,0 +1,10 @@
+name = input ("Enter name here:")
+address = input ("Enter address here:")
+city = input ("Enter city here:")
+state = input ("Enter state here:")
+age = input ("Enter age here:")
+int_age = int(age)
+if int_age < 18:
+  print("Remember to register to vote when you are 18")
+else:
+  print("Remeber to register to vote!")
